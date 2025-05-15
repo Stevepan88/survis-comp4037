@@ -1,0 +1,130 @@
+@article{guyonneau2022,
+  author = {Guyonneau, Rémy and Mercier, Franck and Oliveira Freitas, Gabriel},
+  title = {LiDAR-Only Crop Navigation for Symmetrical Robot},
+  journal = {Sensors},
+  volume = {22},
+  number = {22},
+  pages = {8918},
+  year = {2022},
+  doi = {10.3390/s22228918},
+  url = {https://doi.org/10.3390/s22228918},
+  abstract = {This paper proposes a LiDAR-based navigation algorithm for agricultural robots, using an enhanced Ruby algorithm (RGOP) to extract crop rows from point clouds, coupled with a fuzzy controller. Tested in ROS/Gazebo across four crop configurations, RGOP achieves 100\% success rate with 320 mm² mean square error and 2.84 ms processing time, validated quantitatively. The method suits complex fields, and deep learning could optimize row detection.},
+  keywords = {Traditional, Agricultural, LiDAR, Fuzzy Control}
+}
+
+@article{iqbal2020,
+  author = {Iqbal, J. and Xu, R. and Sun, S. and Li, C.},
+  title = {Simulation of an Autonomous Mobile Robot for LiDAR-Based In-Field Phenotyping and Navigation},
+  journal = {Robotics},
+  volume = {9},
+  number = {2},
+  pages = {46},
+  year = {2020},
+  doi = {10.3390/robotics9020046},
+  url = {https://doi.org/10.3390/robotics9020046},
+  abstract = {The Phenotron robot integrates nodding 2D LiDAR and GPS for agricultural navigation and phenotyping, generating 3D point clouds for plant analysis. Gazebo simulations in cotton fields achieve 0.0778 m navigation error and 4\% plant height error, validated quantitatively. RANSAC-based row fitting ensures robust navigation. Deep learning could enhance feature extraction.},
+  keywords = {Traditional, Agricultural, LiDAR+GPS, Quantitative}
+}
+
+@mastersthesis{lee2013,
+  author = {Lee, J.},
+  title = {Hierarchical Controller for Highly Dynamic Locomotion Utilizing Pattern Modulation and Impedance Control: Implementation on the MIT Cheetah Robot},
+  school = {Massachusetts Institute of Technology},
+  year = {2013},
+  url = {https://dspace.mit.edu/handle/1721.1/85490},
+  abstract = {This thesis develops a hierarchical control algorithm for MIT Cheetah’s high-speed locomotion, using impedance control and gait modulation. MATLAB simulations validate 3.4 m/s trotting; experiments achieve 6 m/s with a cost of transport of 0.52, outperforming peers, validated quantitatively. ROS2 Gazebo replication confirms stability. RL could optimize parameters.},
+  keywords = {Quadruped, Impedance Control, Quantitative}
+}
+
+@article{sanchez2023,
+  author = {Sánchez, M. and Morales, J. and Martínez, J. L.},
+  title = {Reinforcement and Curriculum Learning for Off-Road Navigation of an UGV with a 3D LiDAR},
+  journal = {Sensors},
+  volume = {23},
+  number = {6},
+  pages = {3239},
+  year = {2023},
+  doi = {10.3390/s23063239},
+  url = {https://doi.org/10.3390/s23063239},
+  abstract = {This off-road UGV navigation method uses DRL and curriculum learning, converting 3D LiDAR point clouds into 2D traversability scans for an Actor-Critic neural network. Gazebo and real-world tests achieve 98\% success, outperforming reactive navigation, validated quantitatively. Imitation learning could refine policies.},
+  keywords = {Machine Learning, Off-Road, RL, Quantitative}
+}
+
+@inproceedings{singh2024,
+  author = {Singh, A. V. and Agrawal, Y. and Gupta, R. and Bohara, V. A.},
+  title = {Filtering-RRT for Autonomous Indoor Navigation},
+  booktitle = {2024 16th International Conference on COMmunication Systems & NETworkS (COMSNETS)},
+  pages = {282--284},
+  year = {2024},
+  doi = {10.1109/COMSNETS59351.2024.10427090},
+  url = {https://doi.org/10.1109/COMSNETS59351.2024.10427090},
+  abstract = {This study presents an enhanced RRT algorithm for indoor exploration, integrating LiDAR and Gmapping. A filtering module clusters boundary points, and a termination strategy improves efficiency. Gazebo and lab tests achieve 98.997\% map completion in 85 seconds, validated quantitatively. RL could optimize RRT parameters.},
+  keywords = {Traditional, Indoor, RRT, SLAM, Quantitative}
+}
+
+@article{waga2025,
+  author = {Waga, A. and Benhlima, S. and Bekri, A. and others},
+  title = {A Novel Approach for End-to-End Navigation for Real Mobile Robots Using a Deep Hybrid Model},
+  journal = {Intelligent Service Robotics},
+  volume = {18},
+  pages = {75--95},
+  year = {2025},
+  doi = {10.1007/s11370-024-00569-8},
+  url = {https://doi.org/10.1007/s11370-024-00569-8},
+  abstract = {This deep hybrid model enables indoor navigation using a monocular RGB camera, combining CNN (VGG19, ResNet50) with random forest for commands. An augmented dataset of 67,680 frames yields 97.63\% accuracy in simple settings, validated quantitatively. LiDAR-SLAM fusion could improve complex environments.},
+  keywords = {Machine Learning, Indoor, CNN, Quantitative}
+}
+
+@article{xiao2022,
+  author = {Xiao, X. and Liu, B. and Warnell, G. and others},
+  title = {Motion Planning and Control for Mobile Robot Navigation Using Machine Learning: A Survey},
+  journal = {Autonomous Robots},
+  volume = {46},
+  pages = {569--597},
+  year = {2022},
+  doi = {10.1007/s10514-022-10039-8},
+  url = {https://doi.org/10.1007/s10514-022-10039-8},
+  abstract = {This survey reviews ML in robot navigation, classifying 74 studies into end-to-end, subsystem, and component learning. End-to-end methods dominate but lack generalization; hybrid approaches show promise. Literature analysis, supported by Gazebo simulations, validates ML’s potential in dynamic environments.},
+  keywords = {Survey, Machine Learning, Literature Analysis}
+}
+
+@article{zabar2024,
+  author = {Zabar, H. F. and Alaiwi, Y.},
+  title = {Application of Efficient Mobile Robot Navigation through Machine Learning Technique},
+  journal = {AIP Conference Proceedings},
+  volume = {3092},
+  number = {1},
+  year = {2024},
+  doi = {10.1063/5.0199704},
+  url = {https://doi.org/10.1063/5.0199704},
+  abstract = {This navigation method combines DRL and SNN to optimize wall-following in 240x240 m occupancy grids. Simulations in 5663 maze environments reduce timesteps by 73-78\% with 14-44 convergence trials, validated quantitatively. Aliasing elimination improves performance. Curriculum learning could enhance multi-task navigation.},
+  keywords = {Machine Learning, Maze, SNN, Quantitative}
+}
+
+@article{zhao2022,
+  author = {Zhao, J. and Liu, S. and Li, J.},
+  title = {Research and Implementation of Autonomous Navigation for Mobile Robots Based on SLAM Algorithm under ROS},
+  journal = {Sensors},
+  volume = {22},
+  number = {11},
+  pages = {4172},
+  year = {2022},
+  doi = {10.3390/s22114172},
+  url = {https://doi.org/10.3390/s22114172},
+  abstract = {This ROS-based navigation system for four-wheel robots uses Karto SLAM, A* planning, and DWA for obstacle avoidance. Gazebo and L-shaped corridor tests yield 0.019 m mapping accuracy, validated quantitatively. Wheel slip improves pose estimation. RL could optimize DWA parameters.},
+  keywords = {Traditional, Indoor, Karto SLAM, Quantitative}
+}
+
+@article{zhao2023,
+  author = {Zhao, S. and Hwang, S. H.},
+  title = {ROS-Based Autonomous Navigation Robot Platform with Stepping Motor},
+  journal = {Sensors},
+  volume = {23},
+  number = {7},
+  pages = {3648},
+  year = {2023},
+  doi = {10.3390/s23073648},
+  url = {https://doi.org/10.3390/s23073648},
+  abstract = {The Owlbot platform uses Gmapping SLAM with stepper motors for indoor navigation, fusing LiDAR and IMU data. Corridor experiments confirm mapping accuracy (<0.015 m error) with A* and DWA, validated quantitatively. Polynomial regression controls motors. Deep learning could enhance feature extraction.},
+  keywords = {Traditional, Indoor, Gmapping, Quantitative}
+}
